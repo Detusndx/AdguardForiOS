@@ -16,7 +16,7 @@
 // along with Adguard for iOS. If not, see <http://www.gnu.org/licenses/>.
 //
 
-#include "Common-Config.xcconfig"
+#include "../Common-Config.xcconfig"
 
 // Global product settings
 AG_PRODUCT = AdGuard Pro
