@@ -15,4 +15,4 @@ jobs:
            bundle install
       - name: Set Default Scheme
         run: |
-          xcodebuild archive -project AdguardExtension/Adguard.xcodeproj -scheme "AdguardPro" -xcconfig "AdguardExtension/AdguardPro/Adguard-Pro.xcconfig" -xcconfig "AdguardExtension/Common-Config.xcconfig" CODE_SIGNING_REQUIRED=NO CODESIGNING_ALLOWED=NO CODE_SIGN_IDENTITY=
+          xcodebuild archive -project AdguardExtension/Adguard.xcodeproj -scheme "AdguardPro" -xcconfig "AdguardExtension/AdguardPro/Adguard-Pro.xcconfig" CODE_SIGNING_REQUIRED=NO CODESIGNING_ALLOWED=NO CODE_SIGN_IDENTITY=
