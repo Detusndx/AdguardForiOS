@@ -22,12 +22,6 @@ final class LoggerManagerImpl : LoggerManager {
         }
     }
 
-    func configure(_ logLevel: LogLevel) {
-        let swiftyBeaverLogLevel = logLevel.getSwiftyBeaverLogLevel()
-        osLogDestination.minLevel = swiftyBeaverLogLevel
-        fileLogDestination.minLevel = swiftyBeaverLogLevel
-    }
-
     private func createOSLogDestination() -> BaseDestination  {
         let osLogDestination = ConsoleAppDestination()
         osLogDestination.format = "[$T] $L $X - $M"
