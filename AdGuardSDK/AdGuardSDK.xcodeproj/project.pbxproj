@@ -38,7 +38,6 @@
 		24D0AF3226F0FD7A00187810 /* DnsBackgroundFetchUpdateProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D0AF3026F0FD7A00187810 /* DnsBackgroundFetchUpdateProtocol.swift */; };
 		3D1EA72D27DA39BB005E7153 /* SharedAdGuardSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC8A37F26E7697C005244CF /* SharedAdGuardSDK.framework */; };
 		3D1EA72E27DA39BB005E7153 /* SharedAdGuardSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC8A37F26E7697C005244CF /* SharedAdGuardSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		3D8EA87A27D12F3300F0172F /* SwiftyBeaver in Frameworks */ = {isa = PBXBuildFile; productRef = 3D8EA87927D12F3300F0172F /* SwiftyBeaver */; };
 		3D8EA88527D1339A00F0172F /* LoggerWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8EA88427D1339A00F0172F /* LoggerWrapper.swift */; };
 		3D8EA88827D133C600F0172F /* LoggerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D8EA88727D133C600F0172F /* LoggerFactory.swift */; };
 		7E15DFD126E603040020247E /* CompaniesStatisticsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E15DFD026E603040020247E /* CompaniesStatisticsTest.swift */; };
