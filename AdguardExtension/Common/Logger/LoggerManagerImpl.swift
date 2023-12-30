@@ -1,5 +1,4 @@
 import Foundation
-import SwiftyBeaver
 import AGDnsProxy
 
 /// Manager that create os and file log destinations. Creates and stores labeled loggers
